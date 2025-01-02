@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .infos, form{
+    margin-top: 2rem;
+  }
+  #list {
+    list-style: none;
+    padding: 0;
+  }
+  #toggle-theme {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .dark-mode label {
+    color: #ffffff;
+  }
